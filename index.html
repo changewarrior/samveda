@@ -23,6 +23,7 @@
         tr:nth-child(even) {
           background-color: #dddddd;
         }
+
         </style>
 
 
@@ -56,28 +57,31 @@
 
     <form>
 
-        <label for="html">Medium</label>
+        <div style="font-size:24px" >
+        <label for="html"   >Medium:</label>
 
 
-        <select id="medium" name = "medium"  onchange="selectMedium();" >
+        <select id="medium" name = "medium"   style="font-size:24px"  onchange="selectMedium();" >
             <option value = "Choose" selected >Choose</option>
             <option value = "Kannada">Kannada</option>
             <!-- <option value = "English" >English</option> -->
         </select>
 
-        <label for="Class">Class</label>
+
+        <label for="Class">Class:   </label>
 
 
-        <select id="class" name = "Class" onchange="selectClass();">
+        <select id="class" name = "Class"  style="font-size:24px" onchange="selectClass();">
             <option value = "Choose" selected >Choose</option>
             <option value = "10">10th</option>
 
         </select>
 
-        <label for="Subject">Subject</label>
+
+        <label for="Subject">Subject:</label>
 
 
-        <select id="subject" name = "Subject" onchange="selectSubject();">
+        <select id="subject" name = "Subject"  style="font-size:24px"  onchange="selectSubject();">
             <option value = "Choose" selected>Choose</option>
 
             <option value = "Social Science" >Social Science</option>
@@ -92,8 +96,11 @@
             -->
         </select>
 
-
+            </div>
     </form>
+
+
+
 
     </br>
     </br>
